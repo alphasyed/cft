@@ -13,14 +13,14 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
         - Key: Name
-          Value: Syed
+          Value: Syed VPC
 
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
     Properties:
       Tags:
         - Key: Name
-          Value: LUIT CF Project
+          Value: Syed IG
 
   InternetGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
