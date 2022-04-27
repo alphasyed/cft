@@ -1,0 +1,15 @@
+aws configure
+AWS Access Key ID [None]: AKIA57T2ESR5KA5SVXVB
+AWS Secret Access Key [None]: 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
+Default region name [None]: us-east-1
+Default output format [None]: json
+
+
+
+
+
+aws cloudformation create-stack --stack-name myteststack --template-body file:///cft.txt
+
+aws cloudformation create-stack --stack-name vpc-boxer --template-body file://cft.yml
+
+ aws cloudformation delete-stack --stack-name myteststack
