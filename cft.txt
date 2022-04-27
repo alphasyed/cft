@@ -36,7 +36,7 @@ Resources:
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
-          Value: LUIT CF Project Public Subnet (AZ1)
+          Value: Syed Public Subnet (AZ1)
 
   PublicSubnet2:
     Type: AWS::EC2::Subnet
