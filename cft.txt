@@ -13,14 +13,14 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
         - Key: Name
-          Value: syed VPC
+          Value: syed VPC4
 
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
     Properties:
       Tags:
         - Key: Name
-          Value: tests IG
+          Value: syed IG
 
   InternetGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
