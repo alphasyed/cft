@@ -13,7 +13,7 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
         - Key: Name
-          Value: Syed VPC
+          Value: test VPC
 
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
