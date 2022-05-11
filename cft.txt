@@ -13,14 +13,14 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
         - Key: Name
-          Value: Syed
+          Value: syed VPC
 
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
     Properties:
       Tags:
         - Key: Name
-          Value: Syed IG Project
+          Value: syed IG
 
   InternetGatewayAttachment:
     Type: AWS::EC2::VPCGatewayAttachment
@@ -36,7 +36,7 @@ Resources:
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
-          Value: Syed Public Subnet (AZ1)
+          Value: test Public Subnet (AZ1)
 
   PublicSubnet2:
     Type: AWS::EC2::Subnet
