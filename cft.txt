@@ -13,7 +13,7 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
         - Key: Name
-          Value: syed VPC
+          Value: syed VPC4
 
   InternetGateway:
     Type: 'AWS::EC2::InternetGateway'
